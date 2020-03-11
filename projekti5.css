@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple|Nothing+You+Could+Do|Parisienne|Sacramento|Shadows+Into+Light|Zhi+Mang+Xing&display=swap');
+
+body{
+  background-color: #0A67A3;
+  text-align: left;
+
+}
+
+aside{
+  font-family: 'Zhi Mang Xing', cursive;
+float: right;
+padding-top: 200px;
+margin-bottom: 25%;
+width: 50%;
+text-align: center;
+}
+
+header{
+background-color: #003399;
+}
+
+#h1x{
+  font-size: 34px;
+    font-family: 'Homemade Apple', cursive;
+}
+
+#tekijät{
+  font-size: 28px;
+    font-family: 'Homemade Apple', cursive;
+    Padding: 5px 5px 5px 5px;
+
+}
+
+#section1{
+  background-color: #003399;
+  font-family: 'Zhi Mang Xing', cursive;
+  Padding: 5px 5px 5px 5px;
+}

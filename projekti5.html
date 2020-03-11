@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="projekti5.css">
+    <script type="text/javascript" src="projekti5.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+    <title>Musiikki Tapahtuma</title>
+  </head>
+  <body>
+
+    <!-- Sivun otsikko ja tekijät -->
+    <header>
+      <h1 id="h1x">Musiikki Festarit</h1>
+      <p id="tekijät">Teemu Raatikainen Ja Ville Grundström</p>
+    </header>
+
+    <hr>
+    <!-- Tämä formi menee oikealle puolelle ruutua -->
+    <!-- Tässä jotai, tota formin fonttii ja teksti boxii pitäis kasvattaa et siit tulis tarpeeks iso
+      aside{
+      float: right;
+      padding-top: 200px;
+      margin-bottom: 25%;
+      width: 50%;
+      text-align: center;
+      }
+    -->
+    <aside>
+      <section id="section1">
+        <form action="projekti5.php" method="get">
+          <input type="text" placeholder="Tähän etunimi" name="etunimi" id="etunimi" />
+          <br>
+          <br>
+          <input type="text" placeholder="tähän sukunimi" name="sukunimi" id="sukunimi" />
+          <br>
+          <br>
+          <input type="text" placeholder="tähän syntymäaika" name="syntymäaika" id="syntymäaika" />
+          <br>
+          <br>
+          <input type="text" placeholder=" tähän puhelin numero" name="puhelinnro" id="puhelinnro" />
+          <br>
+          <br>
+          <input type="submit" value="Läheitä">
+
+        </form>
+      </section>
+    </aside>
+    <!-- Infoa tapahtumasta ja kuvia -->
+    <div id="div1">
+      <!-- Tässä on ensimmäinen tietoteksti -->
+      <article id="article1">
+       <h3 id="otsikko1">Where does it come from?</h3>
+        <p id="teksti1">
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de
+        </p>
+      </article>
+
+    <!-- Tässä on ensimmäinen kuva -->
+    <div id="kuva1">
+      <img src="" alt=" Ei oo kuvaa ei">
+    </div>
+
+      <!-- Tässä on toinen tietoteksti -->
+      <article id="article2">
+       <h3 id="otsikko2"></h3>
+        <p id="teksti2">
+          There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It
+        </p>
+      </article>
+
+      <!-- Tässä on toinen kuva ja viimeinen kuva -->
+      <div id="Kuva2">
+        <img src="" alt="Ei oo kuvaa ei">
+      </div>
+
+      <!-- Tässä on kolmas ja viimeinen tietoteksti -->
+      <article id="article3">
+       <h3 id="otsikko3"></h3>
+        <p id="teksti3">
+        t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+        </p>
+      </article>
+    </div>
+
+    </body>
+</html>
