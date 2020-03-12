@@ -14,33 +14,26 @@
       <p id="tekijät">Teemu Raatikainen Ja Ville Grundström</p>
     </header>
 
-    <hr>
+
+
     <!-- Tämä formi menee oikealle puolelle ruutua -->
-    <!-- Tässä jotai, tota formin fonttii ja teksti boxii pitäis kasvattaa et siit tulis tarpeeks iso
-      aside{
-      float: right;
-      padding-top: 200px;
-      margin-bottom: 25%;
-      width: 50%;
-      text-align: center;
-      }
-    -->
+
     <aside>
       <section id="section1">
-        <form action="projekti5.php" method="get">
+       <form action="projekti5.php" method="get">
+         <p>Etunimi:</p>
           <input type="text" placeholder="Tähän etunimi" name="etunimi" id="etunimi" />
           <br>
-          <br>
+          <p>Sukunimi:</p>
           <input type="text" placeholder="tähän sukunimi" name="sukunimi" id="sukunimi" />
           <br>
+          <p>Ikä:</p>
+          <input type="number" placeholder="tähän Ikä" name="Ika" id="ika" />
           <br>
-          <input type="text" placeholder="tähän syntymäaika" name="syntymäaika" id="syntymäaika" />
+          <p>Puhelinnumero:</p>
+          <input type="number" placeholder=" tähän puhelinnumero" name="puhelinnro" id="puhelinnro" />
           <br>
-          <br>
-          <input type="text" placeholder=" tähän puhelin numero" name="puhelinnro" id="puhelinnro" />
-          <br>
-          <br>
-          <input type="submit" value="Läheitä">
+          <input type="submit" id="laheta" value="Läheitä">
 
         </form>
       </section>
@@ -81,6 +74,6 @@
         </p>
       </article>
     </div>
-
+ <footer>Jos on jotai valittamista ota yhteyttä: </footer>
     </body>
 </html>
