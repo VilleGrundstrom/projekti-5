@@ -9,10 +9,9 @@ $puh = $_GET["puhelinnro"];
 $palvelin = "localhost";
 $kayttaja = "root";
 $salasana = "";
-$tietokanta = "lomakex";
+$tietokanta = "lomake";
 
 $link = mysqli_connect($palvelin, $kayttaja, $salasana, $tietokanta);
-
 if(mysqli_connect_error()){
   die("tietokantaan ei saatu yhteyttä");
 }
