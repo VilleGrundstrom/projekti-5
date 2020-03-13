@@ -1,5 +1,5 @@
 function laheta() {
-     var etunimi = (myForm.etunimi.value);
+     var etunimi = myForm.etunimi.value;
        if(etunimi.length < 3)
        {
          alert("Asenna ETUnimesi tai tapahtuu hirveitä");
