@@ -5,6 +5,19 @@ text-align: left;
 font-family: 'Arial', cursive;
 padding: 2px 2px 2px 2px;
 
+background-image: url("Konsertti.jpg");
+position:relative;
+background-position:center;
+background-size:cover;
+background-repeat:no-repeat;
+background-attachment:fixed;
+margin:0;
+font-size:16px;
+font-family:"Lato", sans-serif;
+font-weight:400;
+line-height:1.8em;
+color:#666;
+  
 }
 aside{
 background-color: #E65FE5;
@@ -20,6 +33,7 @@ letter-spacing: 2.5px;
 display:table-cell;
 horizontal-align: middle;
 margin: 0 auto;
+padding-bottom: 50px;
 }
 p{
 color: #FF9D0B;
