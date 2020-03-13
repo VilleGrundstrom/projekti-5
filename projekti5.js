@@ -1,33 +1,33 @@
-function laheta() {
-     var etunimi = myForm.etunimi.value;
-       if(etunimi.length < 3)
+function validate() {
+     var etunimis = myForm.etunimis.value;
+       if(etunimis.length < 3)
        {
          alert("Asenna ETUnimesi tai tapahtuu hirveitä");
-         myForm.etunimi.focus();
+         myForm.etunimis.focus();
          return (false);
         }
 
-      var sukunimi = (myForm.sukunimi.value);
-        if(sukunimi.length < 3)
+      var sukunimis = (myForm.sukunimis.value);
+        if(sukunimis.length < 3)
         {
           alert("Asenna SUKUnimesi tai tapahtuu hirveitä");
-          myForm.sukunimi.focus();
+          myForm.sukunimis.focus();
           return (false);
         }
 
-      var ika = Number(myForm.ika.value);
-        if(ika < 18 || ika > 200)
+    /*  var syntymaaikas = Number(myForm.syntymaaikas.value);
+        if(ika < 18 || ika > 90)
         {
           alert("asenna IKÄSI tai tapahtuu hirveitä");
-          myForm.ikasyotto.focus();
+          myForm.syntymaaikas.focus();
           return (false);
-        }
+        }*/
 
-      var puhelinnro = (myForm.puhelinnro.value);
-        if(puhelinno.length < 9 || puhelinnro.length > 20)
+      /*var puhelinnumero = (myForm.puhelinnumero.value);
+        if(puhelinnumero.length > 13)
         {
           alert("Asenna PUHELINNUMEROSI tai tapahtuu hirveitä");
-          myForm.puhelinnro.focus();
+          myForm.puhelinnumero.focus();
           return (false);
-          }
+        }*/
 }

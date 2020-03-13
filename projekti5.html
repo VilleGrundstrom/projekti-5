@@ -20,22 +20,34 @@
 
     <aside>
       <section id="section1">
-        <form  action="projekti5.php" method="get" id="myForm">
+        <form  action="" method="get" id="myForm" onsubmit="validate()">
+         <table>
 
-         <p>Etunimi:</p>
-          <input type="text" placeholder="Tähän etunimi" name="etunimi" id="etunimi" />
-          <br>
-          <p>Sukunimi:</p>
-          <input type="text" placeholder="tähän sukunimi" name="sukunimi" id="sukunimi" />
-          <br>
-          <p>Syntymäaika:</p>
-          <input type="number" placeholder="tähän Syntymäaika" name="syntymaaika" id="syntymaaika" />
-          <br>
-          <p>Puhelinnumero:</p>
-          <input type="number" placeholder="tähän puhelinnumero" name="puhelinnro" id="puhelinnro" />
-          <br>
-          <input type="submit" id="laheta" value="Läheitä" onclick="laheta()">
+         <tr>
+           <td align="right">Etunimi</td>
+          <td> <input type="text" placeholder="Tähän etunimi" name="etunimi" id="etunimis" /> </td>
 
+         </tr>
+
+          <tr>
+            <td align="right">Sukunimi</td>
+          <td>  <input type="text" placeholder="tähän sukunimi" name="sukunimi" id="sukunimis" /> </tdZ>
+          </tr>
+          <tr>
+            <td align="right">Syntymäaika</td>
+
+          <td>  <input type="date" placeholder="tähän Syntymäaika" name="syntymaaika" id="syntymaaikas" /> </td>
+          </tr>
+          <tr>
+            <td align="right">Puhelinnro</td>
+
+          <td>  <input type="number" placeholder="tähän puhelinnumero" name="puhelinnro" id="puhelinnumero" /> </td>
+          </tr>
+          <tr>
+            <td align="right"></td>
+            <td><input type="submit" id="laheta" value="Läheitä" ></td>
+          </tr>
+        </table>
         </form>
       </section>
     </aside>
